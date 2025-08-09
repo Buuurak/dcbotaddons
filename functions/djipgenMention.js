@@ -28,7 +28,7 @@ async function djipgenMention(client) {
     let djipgenActive = false;
 
     for (const show of data) {
-      if (show.dj && show.dj.toLowerCase() === 'djipgen') {
+      if (show.dj && show.dj.toLowerCase() === 'USRNAME ERSETZEN') {
         const end = parseTime(show.ende);
         if (isNowBetween(start, end, now)) {
           djipgenActive = true;
