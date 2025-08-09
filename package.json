@@ -1,0 +1,26 @@
+{
+  "name": "btfm_internal_bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "",
+  "dependencies": {
+    "axios": "^1.9.0",
+    "discord.js": "^14.21.0",
+    "node-cron": "^4.1.0",
+    "node-fetch": "^3.3.2",
+    "node-schedule": "^2.1.1"
+  },
+  "devDependencies": {},
+  "keywords": [],
+  "description": ""
+}
